@@ -81,7 +81,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#d9ecd3;
+    background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
 }
 
 
@@ -125,15 +125,6 @@ h1 {
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
-    width: calc(33.33% - 20px);
-    box-sizing: border-box;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
 }
 
 .produit:hover {
@@ -142,7 +133,7 @@ h1 {
 
 .produit img {
     max-width: 100%;
-    height: 300px;
+    height: auto;
     border-radius: 8px;
 }
 

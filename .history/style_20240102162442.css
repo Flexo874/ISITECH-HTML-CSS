@@ -81,7 +81,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#d9ecd3;
+    background-image: linear-gradient( 117deg,  rgba(123,216,96,1) 39.2%, rgba(255,255,255,1) 156.2% );
 }
 
 
@@ -109,65 +109,7 @@ h1 {
     font-size: 14px;
 }
 
-.produits {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-    
-}
 
-.produit {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-    width: calc(33.33% - 20px);
-    box-sizing: border-box;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin: 10px;
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-}
-
-.produit:hover {
-    transform: scale(1.05);
-}
-
-.produit img {
-    max-width: 100%;
-    height: 300px;
-    border-radius: 8px;
-}
-
-.produit h3 {
-    margin-top: 10px;
-    font-size: 1.5em;
-    color: #333;
-}
-
-.produit p {
-    color: #666;
-}
-
-.produit button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.produit button:hover {
-    background-color: #45a049;
-}
 
 
 
