@@ -116,9 +116,7 @@ h1 {
   transition: transform 0.3s ease-in-out;
   width: calc(33.33% - 20px);
   box-sizing: border-box;
-  
  
-}
 
 .produit:hover {
   transform: scale(1.05);
