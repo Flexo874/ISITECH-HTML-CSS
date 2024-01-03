@@ -1,0 +1,39 @@
+.engagement{
+    padding: 20px ;
+    
+    background-color:#00564B;
+}
+
+.titre2{
+    margin-top: 70px;
+    text-align: center  ;
+}
+.engagement > .titre2 h2{
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Macondo', cursive;
+    color:wheat;
+    font-size: 50px;
+}
+
+.cat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    width: calc(25%);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.eng h3{
+    font-size: 55px;
+    color:white;
+}
+
+.eng h4{
+    font-size: 25px;
+    color:white;
+}
+

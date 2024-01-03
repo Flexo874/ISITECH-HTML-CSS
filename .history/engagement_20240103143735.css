@@ -1,0 +1,12 @@
+.engagement{
+    padding: 20px ;
+    
+    background-color:#00564B;
+}
+
+.engagement > .titre h2{
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Macondo', cursive;
+    color:wheat;
+    font-size: 30px;
+}

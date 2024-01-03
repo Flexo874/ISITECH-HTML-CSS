@@ -1,0 +1,11 @@
+.instructions{
+    display: flex;
+    padding: 20px ;
+    margin-top: 60px;
+    background-color:#F8F8F4;
+}
+ .titre h2{
+    font-size: 35px;
+    color:#556B2F;
+    text-align: center;
+}
