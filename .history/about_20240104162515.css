@@ -55,43 +55,19 @@
     object-fit: cover;
     overflow: hidden;
     background-image:url(images/lines.webp);
-    justify-content: center;
-    display: flex;
-    vertical-align: middle;
   }
 
-  .plant-img > .fade {
-    position: absolute;
+  .plant-img > div {
     width: 100%;
-    height:auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     background-image: linear-gradient(0deg, white 0%, rgba(0,0,0,0) 15%);
   }
 
 
-  .plant-img > .comment{
-    position: relative;
-   text-align: center;
+  .plant-img > div > img{
+    align-items: center;
     width: 600px;
-    background-color:white;   
-    height: 400px;
-    display: table-column;
-    align-items:center;
-    margin-top: 80px;
-    border-radius: 7px;
-    border-color:#00564B;
-  }
-  .comment h1{
-    align-items:top;
-    margin-top: 15%;
-    margin-bottom: 20px;
-    font-family: 'Exo 2', sans-serif;
-    font-family: 'Macondo', cursive;
-    color:#00564B;
-  }
-  .comment p{
-    text-align: center;
-margin:10px;
-font-size: 18px;
+    border-color:#00564B
   }

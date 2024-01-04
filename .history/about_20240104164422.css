@@ -63,7 +63,7 @@
   .plant-img > .fade {
     position: absolute;
     width: 100%;
-    height:auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     background-image: linear-gradient(0deg, white 0%, rgba(0,0,0,0) 15%);
@@ -72,26 +72,15 @@
 
   .plant-img > .comment{
     position: relative;
-   text-align: center;
+    align-items: center;
     width: 600px;
-    background-color:white;   
+    background-color:#FDE0AC;   
     height: 400px;
-    display: table-column;
+    display: flex;
     align-items:center;
-    margin-top: 80px;
-    border-radius: 7px;
-    border-color:#00564B;
+    margin-top: 40px;
   }
-  .comment h1{
-    align-items:top;
-    margin-top: 15%;
-    margin-bottom: 20px;
-    font-family: 'Exo 2', sans-serif;
-    font-family: 'Macondo', cursive;
-    color:#00564B;
-  }
+
   .comment p{
     text-align: center;
-margin:10px;
-font-size: 18px;
   }

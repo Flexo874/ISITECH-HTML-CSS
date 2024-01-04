@@ -79,8 +79,6 @@
     display: table-column;
     align-items:center;
     margin-top: 80px;
-    border-radius: 7px;
-    border-color:#00564B;
   }
   .comment h1{
     align-items:top;
@@ -88,7 +86,6 @@
     margin-bottom: 20px;
     font-family: 'Exo 2', sans-serif;
     font-family: 'Macondo', cursive;
-    color:#00564B;
   }
   .comment p{
     text-align: center;
