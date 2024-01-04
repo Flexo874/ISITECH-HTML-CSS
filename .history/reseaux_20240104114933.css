@@ -1,0 +1,28 @@
+footer{
+    background-color:white;
+    
+}
+
+.socials{
+    display: flex;
+    justify-content:center;
+    padding: 10px 0;
+    
+}
+
+.social{
+    margin:0 10px;
+}
+
+.social img{
+    width: 26px;
+    height: 26px;
+}
+
+.social  :hover{
+    transform: scale(1.1);
+}
+.social > .yt img{
+    width: 26px;
+    height: auto;
+}

@@ -1,0 +1,14 @@
+.reseaux{
+    width: 100%;
+    bottom:0;
+    left:0; 
+    background-color:white;
+    position:sticky bottom;
+    height: 55px;
+}
+
+.logos img{
+    width: 20px;
+    align-items: center;
+    vertical-align: middle;
+}

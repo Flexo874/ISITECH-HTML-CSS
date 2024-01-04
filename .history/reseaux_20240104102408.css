@@ -1,0 +1,19 @@
+footer{
+    background-color:white;
+    text-align: center;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.social{
+    margin:0 10px;
+}
+
+.social img{
+    width: 30px;
+    height: 30px;
+}
