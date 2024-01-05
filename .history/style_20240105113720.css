@@ -194,7 +194,7 @@ h1 {
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: transparent ;
+    scrollbar-color: transparent transparent;
   }
 
   /* Chrome, Edge, and Safari */

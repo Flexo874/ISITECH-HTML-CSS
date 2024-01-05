@@ -194,20 +194,20 @@ h1 {
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: transparent ;
+    scrollbar-color: #8f54a0 #ffffff;
   }
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 14px;
+    width: 16px;
   }
 
   *::-webkit-scrollbar-track {
-    background-color: transparent;
+    background: #ffffff;
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: #00564B;
+    background-color: #8f54a0;
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
